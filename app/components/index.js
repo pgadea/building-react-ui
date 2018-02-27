@@ -26,7 +26,7 @@ export default class MainComponent extends Component {
     }
 
     componentDidMount() {
-        getUsers(6, users => {
+        getUsers(20, users => {
             this.setState({
                 users
             });
